@@ -1,0 +1,60 @@
+.nav {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+
+.nav-a {
+    padding: 4px 15px;
+    border-radius: 8px; 
+    text-decoration: none;
+    color: #000; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.nav-a:hover {
+    background-color: black;
+    color: white;
+    padding: 4px 10px; 
+    border-radius: 8px; 
+    border: none; 
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading {
+    z-index: 10;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.boy {
+    z-index: 0;
+    bottom: 0;
+    left: -7%;
+}
+
+.girl {
+    bottom: 0;
+    right: -10%;
+}
