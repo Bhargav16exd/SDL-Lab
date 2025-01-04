@@ -58,3 +58,53 @@ a {
     bottom: 0;
     right: -10%;
 }
+
+.about {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 70%;
+}
+
+.about-heading {
+    margin: 20px 0px;
+    color: #858585 ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-hero-heading {
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.about-cards {
+    margin:100px 0px;
+    display: flex;
+}
+
+.about-img {
+    max-width: 50%;
+}
+
+.about-p {
+    font-weight: 300;
+    padding: 0px 40px;
+    width: 50%;
+    word-spacing: 2px;
+}
+
+.foo {
+    border-top: 1px solid #dcdcdc;
+    padding: 20px 0px;
+}
