@@ -135,3 +135,29 @@ a {
     color:white; 
     border: none;
 }
+
+/* Contact Us Styling  */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.contact-section-container {
+    max-width: 80%;
+}
+
+.contact-section-container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-data {
+    margin: 20px 0px;
+}
